@@ -3,4 +3,9 @@
   width: 1000px;
   height: 250px;
   color: white;
+  position: relative;
+}
+
+.text{
+  position: absolute;
 }
