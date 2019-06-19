@@ -2,21 +2,32 @@
   background-image:url("images/tesla-790-250px.jpg");
   width: 1000px;
   height: 250px;
-  color: black;
   position: relative;
 }
 
+.text{
+  padding-top: 0.1px;
+  text-align: center;
+  color: #e7e6e7;
+  width: 300px;
+  font-family: myriad-pro, sans-serif;
+  font-weight: 200;
+  letter-spacing: 3.5px;
+  font-style: normal;
+  line-height: 43px;
+  font-size: 18px;
+}
 #building{
   position: relative;
-  opacity: 0;
+  opacity: 1;
 }
 
 #what{
   position: relative;
-  opacity: 0;
+  opacity: 1;
 }
 
 #matters{
   position: relative;
-  opacity: 0;
+  opacity: 1;
 }
