@@ -1,11 +1,22 @@
-#banner{
+.banner{
   background-image:url("images/tesla-790-250px.jpg");
   width: 1000px;
   height: 250px;
-  color: white;
+  color: black;
   position: relative;
 }
 
-.text{
-  position: absolute;
+#building{
+  position: relative;
+  opacity: 0;
+}
+
+#what{
+  position: relative;
+  opacity: 0;
+}
+
+#matters{
+  position: relative;
+  opacity: 0;
 }
