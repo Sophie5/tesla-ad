@@ -1,5 +1,5 @@
 .banner{
-  background-image:url("images/tesla-790-250px.jpg");
+  background-image:url("images/tesla-790-250px-min.jpg");
   width: 1000px;
   height: 250px;
   position: relative;
@@ -12,23 +12,30 @@
   color: #e7e6e7;
   width: 300px;
   font-family: myriad-pro, sans-serif;
-  font-weight: 200;
+  font-weight: 100;
   letter-spacing: 3px;
   font-style: normal;
-  line-height: 42px;
+  line-height: 40px;
   font-size: 20px;
+}
+a{
+  text-decoration: none;
+}
+
+#modelNumber{
+  color: #e31b3c;
 }
 #building{
   position: relative;
-  opacity: 1;
+  opacity: 0;
 }
 
 #what{
   position: relative;
-  opacity: 1;
+  opacity: 0;
 }
 
 #matters{
   position: relative;
-  opacity: 1;
+  opacity: 0;
 }
