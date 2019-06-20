@@ -51,11 +51,19 @@ body{
   margin-left: 215px;
 }
 
+#logo{
+  height: 91px;
+  width: 100px;
+  position: absolute;
+  top: 15px;
+  right: 20px;
+}
+
 a{
   text-decoration: none;
 }
 
-#modelNumber{
+#Number{
   color: #e31b3c;
 }
 #building{

@@ -7,5 +7,5 @@ tl.to("#what", 2.5, {opacity: 1});
 tl.to("#matters", 2.5, {opacity: 1});
 tl.to(".text", 2.5, {opacity: 0});
 tl.to("#car", 5, {x: -1200});
-tl.to(".wheels", 5, {rotation: -220}, '-=5.1');
+tl.to(".wheels",3, {rotation: -600}, '-=5.1');
 });
