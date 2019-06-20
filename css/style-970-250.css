@@ -5,13 +5,16 @@ body{
 
 }
 .banner{
-  width: 790px;
+  width: 970px;
   height: 250px;
   background-repeat: no-repeat;
-  background-image:url("../images/tesla-790-250px-min.jpg");
+  background-color: black;
+  overflow: hidden;
+
 }
 
 .text{
+  float: left;
   padding-left: 5px;
   padding-top: 0.1px;
   text-align: center;
@@ -23,6 +26,29 @@ body{
   font-style: normal;
   line-height: 40px;
   font-size: 20px;
+}
+
+#car{
+  float: left;
+  background-image: url("../images/tesla-790-250px-min.png");
+  margin-top: 50px;
+  height: 215px;
+  width: 456px;
+  background-repeat: no-repeat;
+}
+
+#wheel1{
+  height:55px;
+  width: 55px;
+  margin-top: 102px;
+  margin-left: 76px;
+}
+
+#wheel2{
+  height:55px;
+  width: 55px;
+  margin-top: 102px;
+  margin-left: 215px;
 }
 
 a{
