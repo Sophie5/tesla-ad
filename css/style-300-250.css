@@ -1,0 +1,48 @@
+body{
+  height: 100vh;
+  width: 100vh;
+  background-repeat: no-repeat;
+
+}
+.banner{
+  width: 1000rem;
+  height:300rem;
+  background-repeat: no-repeat;
+  background-image:url("../images/tesla-300-250px-min.jpg");
+}
+
+.text{
+  padding-left: 7px;
+  padding-top: 1px;
+  text-align: left;
+  color: #e7e6e7;
+  width: 300px;
+  font-family: myriad-pro, sans-serif;
+  font-weight: 100;
+  letter-spacing: 3px;
+  font-style: normal;
+  line-height: 20px;
+  font-size: 12px;
+}
+
+a{
+  text-decoration: none;
+}
+
+#modelNumber{
+  color: #e31b3c;
+}
+#building{
+  position: relative;
+  opacity: 0;
+}
+
+#what{
+  position: relative;
+  opacity: 0;
+}
+
+#matters{
+  position: relative;
+  opacity: 0;
+}
