@@ -5,8 +5,8 @@ body{
 
 }
 .banner{
-  width: 1000rem;
-  height:300rem;
+  width: 300px;
+  height: 600px;
   background-repeat: no-repeat;
   background-image:url("../images/tesla-300-600px-min.jpg");
 }
