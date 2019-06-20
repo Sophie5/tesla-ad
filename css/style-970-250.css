@@ -28,6 +28,20 @@ body{
   font-size: 20px;
 }
 
+#slogan{
+  color: #e7e6e7;
+  width: 800px;
+  font-family: myriad-pro, sans-serif;
+  font-weight: 100;
+  letter-spacing: 3px;
+  font-style: normal;
+  font-size: 20px;
+  position: absolute;
+  top: 180px;
+  left: 300px;
+  opacity: 0;
+}
+
 #car{
   float: left;
   background-image: url("../images/tesla-790-250px-min.png");
@@ -52,11 +66,11 @@ body{
 }
 
 #logo{
+  position: relative;
   height: 91px;
   width: 100px;
-  position: absolute;
-  top: 15px;
-  right: 20px;
+  top: 8px;
+  left: 88px;
 }
 
 a{
