@@ -8,12 +8,15 @@ body{
   width: 300px;
   height: 250px;
   background-repeat: no-repeat;
-  background-image:url("../images/tesla-300-250px-min.jpg");
+  background-color: black;
+  overflow: hidden;
+
 }
 
 .text{
-  padding-left: 7px;
-  padding-top: 1px;
+  float: left;
+  padding-left: 5px;
+  top: 10px;
   text-align: left;
   color: #e7e6e7;
   width: 300px;
@@ -21,15 +24,63 @@ body{
   font-weight: 100;
   letter-spacing: 3px;
   font-style: normal;
-  line-height: 20px;
-  font-size: 12px;
+  line-height: 22px;
+  font-size: 11px;
+  position: absolute;
+}
+
+#slogan{
+  text-align: center;
+  color: #e7e6e7;
+  width: 800px;
+  font-family: myriad-pro, sans-serif;
+  font-weight: 100;
+  letter-spacing: 3px;
+  font-style: normal;
+  font-size: 11px;
+  position: absolute;
+  line-height: 25px;
+  top: 200px;
+  right: 1130px;
+  opacity: 0;
+}
+
+#car{
+  float: left;
+  background-image: url("../images/tesla-300-250px-min.png");
+  margin-top: 90px;
+  height: 215px;
+  width: 456px;
+  background-repeat: no-repeat;
+}
+
+#wheel1{
+  height:35px;
+  width: 35px;
+  margin-top: 64px;
+  margin-left: 40px;
+}
+
+#wheel2{
+  height:35px;
+  width: 35px;
+  margin-top: 63px;
+  margin-left: 145px;
+}
+
+#logo{
+  position: absolute;
+  height: 81px;
+  width: 90px;
+  top: 10px;
+  left: 200px;
 }
 
 a{
   text-decoration: none;
 }
 
-#modelNumber{
+#Number{
   color: #e31b3c;
 }
 #building{
